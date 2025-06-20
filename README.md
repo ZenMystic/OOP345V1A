@@ -10,7 +10,7 @@ Overview
 
 This C++ program simulates a basic library management system where you can keep track of books and magazines in a library. Users can add new items, display all items, search or sort by various attributes like title or author, and track which books are currently borrowed and by whom. Borrowing activities are recorded using a mapping of book ISBNs to borrow information.
 
-Features
+Features:
 Book and Magazine Management:
 Add, display, and sort books and magazines.
 
