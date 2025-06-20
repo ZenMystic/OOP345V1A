@@ -26,7 +26,7 @@ File Structure
 - Functors.h – Functors for sorting books
 - Utility.h – Function templates for searching
 - main.cpp – Demo with catalog usage and borrowing system
-- 
+
 How to Compile and Run
 1. Open the project in Visual Studio or any C++17-compatible environment.
 2. Make sure all .h and .cpp files are in your project directory.
