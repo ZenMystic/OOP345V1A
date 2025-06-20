@@ -2,7 +2,7 @@
 
 Library Management System – Assignment 1
 
-Course: C++ Advanced Programming
+Course: OOP345
 
 Student: Abishek Raveendranath
 
