@@ -13,10 +13,13 @@ This C++ program simulates a basic library management system where you can keep 
 Features
 Book and Magazine Management:
 Add, display, and sort books and magazines.
+
 Borrowing System:
 Track which books are currently borrowed and by whom, using a std::map for fast lookup and association.
+
 Templates and STL:
 Uses template classes and function templates for flexible catalog/search operations.
+
 Polymorphism:
 All items are managed through base class pointers, allowing uniform display and operations.
 
