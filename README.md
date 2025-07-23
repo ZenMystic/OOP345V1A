@@ -1,6 +1,6 @@
 # OOP345V1A
 
-Library Management System – Assignment 2
+Assignment 2
 
 Course: OOP345
 
