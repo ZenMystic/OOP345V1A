@@ -1,6 +1,6 @@
 # OOP345V1A
 
-Library Management System – Assignment 1
+Library Management System – Assignment 2
 
 Course: OOP345
 
@@ -8,29 +8,24 @@ Student: Abishek Raveendranath
 
 Overview
 
-This C++ program simulates a basic library management system where you can keep track of books and magazines in a library. Users can add new items, display all items, search or sort by various attributes like title or author, and track which books are currently borrowed and by whom. Borrowing activities are recorded using a mapping of book ISBNs to borrow information.
+This application is a C++17 program that demonstrates three core data structures:
+1. Hash Table for managing movie ticket bookings
+2. Linked List for emergency hospital patient management (by severity)
+3. Binary Search Tree for real estate property listings
 
-Features:
-Book and Magazine Management:
-Add, display, and sort books and magazines.
+Each part shows how these data structures can be used for real-world tasks like collision handling, priority management, and data organization.
 
-Borrowing System:
-Track which books are currently borrowed and by whom, using a std::map for fast lookup and association.
-
-Templates and STL:
-Uses template classes and function templates for flexible catalog/search operations.
-
-Polymorphism:
-All items are managed through base class pointers, allowing uniform display and operations.
-
-File Structure
-- LibraryItem.h / LibraryItem.cpp – Abstract base class for library items
-- Book.h / Book.cpp – Book class
-- Magazine.h / Magazine.cpp – Magazine class
-- Catalog.h – Templated catalog class (header only)
-- Functors.h – Functors for sorting books
-- Utility.h – Function templates for searching
-- main.cpp – Demo with catalog usage and borrowing system
+Included Files
+--------------
+- Booking.h / Booking.cpp              : Booking class for movie ticket bookings
+- BookingHashTable.h / BookingHashTable.cpp : Hash table to manage bookings (Q1)
+- Patient.h / Patient.cpp              : Patient class for hospital management
+- HospitalLinkedList.h / HospitalLinkedList.cpp : Linked list for patients, prioritized by severity (Q2)
+- Property.h / Property.cpp            : Property class for real estate listings
+- PropertyBST.h / PropertyBST.cpp      : Binary Search Tree for managing properties (Q3)
+- main.cpp                             : Test driver for all three features
+- Assignment_2_Conceptual_Questions_FINAL.docx : Conceptual question answers
+- README.txt                           : This file
 
 How to Compile and Run
 1. Open the project in Visual Studio or any C++17-compatible environment.
