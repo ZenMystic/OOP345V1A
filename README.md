@@ -24,8 +24,6 @@ Included Files
 - Property.h / Property.cpp            : Property class for real estate listings
 - PropertyBST.h / PropertyBST.cpp      : Binary Search Tree for managing properties (Q3)
 - main.cpp                             : Test driver for all three features
-- Assignment_2_Conceptual_Questions_FINAL.docx : Conceptual question answers
-- README.txt                           : This file
 
 How to Compile and Run
 1. Open the project in Visual Studio or any C++17-compatible environment.
